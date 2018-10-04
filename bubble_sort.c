@@ -1,7 +1,7 @@
 int bubble_sort(int *p, unsigned int n)
 {
 	int i,j,tmp=0;
-	if(NULL == p)
+	if(0 == p)
 		return -1;
 
 	for(i=0; i<n-1; i++)
