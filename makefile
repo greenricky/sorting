@@ -2,6 +2,7 @@ CFLAGS = -g
 
 OBJS = insert_sort.o \
        bubble_sort.o \
+       quick_sort.o \
        main.o
 
 TARGET = run
