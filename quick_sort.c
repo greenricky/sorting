@@ -15,7 +15,7 @@ int quick_sort(int *p, int l, int r)
 	printf("%d-%d\n", l, r);	
 	sleep(1);
 
-	if(l < r)
+	if( (l<r) && (l>=0) )
 	{
 		/*reference point*/
 		pivot = p[l];
